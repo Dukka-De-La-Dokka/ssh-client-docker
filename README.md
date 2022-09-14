@@ -25,7 +25,7 @@ ssh myhappyweb
 9. If you want to finish your remote connection, type `exit` to go back to your local docker machine
 10. You can store any files in the workdir directory and transfer them to or from your remote virtural machines, for instance:
 ```
-scp ./index.html myhappyweb:/var/www/html
+scp ./index.html myhappyweb:/var/www/html/
 scp myhappyweb:/var/www/html/index.html ./
 ```
 
